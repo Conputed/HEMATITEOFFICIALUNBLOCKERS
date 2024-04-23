@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Unblockers</title>
+<title>Particle Animation</title>
 <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
 <style>
 /* ---- reset ---- */
@@ -34,7 +34,6 @@ canvas {
   transform: translate(-50%, -50%);
   display: flex;
 }
-
 .games-button {
   padding: 15px 30px; /* Increase padding for a bigger background */
   background-color: #222222; /* Change button color */
@@ -49,7 +48,6 @@ canvas {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0); /* Add initial shadow */
   margin-right: 10px; /* Add space between buttons */
 }
-
 .games-button:hover {
   transform: scale(1.05); /* Enlarge the button */
   background-color: #28282B; /* Change button color on hover */
@@ -67,6 +65,8 @@ canvas {
   <button class="games-button" onclick="redirectToWebsiteUnblocker2()">Website Unblocker 2</button>
   <button class="games-button" onclick="redirectToWebsiteUnblocker3()">Website Unblocker 3</button>
   <button class="games-button" onclick="redirectToWebsiteUnblocker4()">Website Unblocker 4</button>
+  <!-- New button for Youtube Unblocked1 -->
+  <button class="games-button" onclick="redirectToYoutubeUnblocked1()">Youtube Unblocked1</button>
 </div>
 
 <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
@@ -74,22 +74,11 @@ canvas {
 <!-- stats.js lib -->
 <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 <script>
-function redirectToWebsiteUnblocker1() {
-  window.open("https://sites.google.com/view/siteunblocker1", "_blank");
-}
-
-function redirectToWebsiteUnblocker2() {
-  window.open("https://buypass.on.fleek.co", "_blank");
-}
-
-function redirectToWebsiteUnblocker3() {
-  window.open("https://womginx.arph.org", "_blank");
-}
-
-function redirectToWebsiteUnblocker4() {
-  window.open("https://www.myturtle.net", "_blank");
-}
-
+function redirectToWebsiteUnblocker1() {window.open("https://sites.google.com/view/siteunblocker1", "_blank");}
+function redirectToWebsiteUnblocker2() {window.open("https://buypass.on.fleek.co", "_blank");}
+function redirectToWebsiteUnblocker3() {window.open("https://womginx.arph.org", "_blank");}
+function redirectToWebsiteUnblocker4() {window.open("https://www.myturtle.net", "_blank");}
+function redirectToYoutubeUnblocked1() {window.open("https://vid.puffyan.us/feed/trending", "_blank");}
 particlesJS("particles-js", {
   "particles": {
     "number": {
